@@ -46,15 +46,13 @@ conda activate d2l_env
 ``
 
 ### 4. Install Required Libraries
- 
-bash
+ ``
 !pip install transformers scikit-learn matplotlib
-
+``
 ### 5. Launch Jupyter Notebook
- 
-bash
+ ``
 jupyter notebook
-
+``
 ## Learning Objectives
 - Understand the differences between BERT, ELMo, and GPT
 - Apply pre-trained models to real-world NLP tasks
