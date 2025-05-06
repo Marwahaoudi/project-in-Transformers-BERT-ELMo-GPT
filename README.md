@@ -42,6 +42,8 @@ cd project-in-Transformers-BERT-ELMo-GPT-etc.git
  
 ``
 conda create -nd2l_env python= 3.12.7
+``
+``
 conda activate d2l_env
 ``
 
