@@ -35,15 +35,17 @@ Make sure git is installed.
 In your terminal or Anaconda Prompt:
 
 bash
+``
 git clone https://github.com/Marwahaoudi/project-in-Transformers-BERT-ELMo-GPT-etc.git
 cd project-in-Transformers-BERT-ELMo-GPT-etc.git
-
+``
 ### 3. Create and Activate a Conda Environment
  
 bash
+``
 conda create -nd2l_env python= 3.12.7
 conda activate d2l_env
-
+``
 
 ### 4. Install Required Libraries
  
