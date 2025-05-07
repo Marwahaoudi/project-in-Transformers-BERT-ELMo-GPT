@@ -84,9 +84,19 @@ Tested the model on a small test dataset and evaluated the performance using:
     - Confusion Matrix
     
 #### Libraries Used
-- **transformers** — for model and tokenizer  
-- **torch** — for training and dataset handling  
-- **scikit-learn** — for metrics and data preprocessing
+The following libraries were used throughout the project for training, evaluation, and visualization of Transformer-based models (especially BERT):
+
+- **PyTorch (torch, torch.nn, torch.utils.data):** for building the model architecture, training, and data handling.
+
+- **Transformers (transformers):** provides access to pre-trained models like BertTokenizer and BertForSequenceClassification, along with utilities such as get_linear_schedule_with_warmup.
+
+- **torch.optim (AdamW):** optimizer used for fine-tuning the BERT model.
+
+- **scikit-learn (sklearn):** used for dataset splitting (train_test_split) and computing evaluation metrics like accuracy, precision, recall, and F1-score.
+
+- **matplotlib (matplotlib.pyplot):** for plotting training curves and visualizing performance metrics.
+
+- **json:** for saving and loading configuration files and performance metrics.
 ----
 ### GPT-2 (Generative Pretrained Transformer)
 
