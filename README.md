@@ -66,19 +66,19 @@ jupyter notebook
 - Task: Sentiment Analysis (Binary Classification: positive / negative)
 - Model Used: bert-base-uncased (via Hugging Face Transformers)
 #### Steps
-1.Tokenization
+1. Tokenization
 Loaded the pre-trained BERT tokenizer (bert-base-uncased) to convert raw text into input tokens.
 
-2.Dataset Preparation
+2. Dataset Preparation
 Built a custom PyTorch dataset for handling labeled input text data (sentiment labels).
 
-3.Model Architecture
+3. Model Architecture
 Used the output of the [CLS] token from BERT to feed into a fully connected layer for classification.
 
-4.Fine-tuning
+4. Fine-tuning
 Fine-tuned the model on labeled data using the Adam optimizer and a cross-entropy loss function.
 
-5.Evaluation
+5. Evaluation
 Tested the model on a small test dataset and evaluated the performance using:
     - Accuracy
     - Confusion Matrix
@@ -86,9 +86,9 @@ Tested the model on a small test dataset and evaluated the performance using:
 #### Libraries Used
 The following libraries were used throughout the project for training, evaluation, and visualization of Transformer-based models (especially BERT):
 
-- **PyTorch (torch, torch.nn, torch.utils.data):** for building the model architecture, training, and data handling.
+**PyTorch (torch, torch.nn, torch.utils.data):** for building the model architecture, training, and data handling.
 
-- **Transformers (transformers):** provides access to pre-trained models like BertTokenizer and BertForSequenceClassification, along with utilities such as get_linear_schedule_with_warmup.
+**Transformers (transformers):** provides access to pre-trained models like BertTokenizer and BertForSequenceClassification, along with utilities such as get_linear_schedule_with_warmup.
 
 - **torch.optim (AdamW):** optimizer used for fine-tuning the BERT model.
 
