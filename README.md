@@ -174,12 +174,15 @@ The following libraries were used specifically for the GPT-2 tasks (question ans
    - Confusion Matrix
 
 
-
 #### Libraries Used
 - **TensorFlow** — for model building and training
 - **TensorFlow Hub (ELMo)** — for pre-trained word embeddings
 - **scikit-learn** — for data preprocessing, model evaluation, and metrics
 - **numpy** — for numerical operations
+---
+## Acknowledgments
+
+- Our module instructor, Abdelhak Mahmoudi, for his guidance and support throughout the project.
 
 
 
