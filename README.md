@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on the study and experimentation of Transformer-based language models such as  **BERT**, **ELMo**, and **GPT**.These models are widely used in Natural Language Processing (NLP) tasks like:
+This project focuses on the study and experimentation of Transformer-based language models such as  **BERT**, **ELMo**, and **GPT**. These models are widely used in Natural Language Processing (NLP) tasks like:
 
 - Sentiment analysis  
 - Text classification  
