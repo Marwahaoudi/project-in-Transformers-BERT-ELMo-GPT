@@ -59,23 +59,6 @@ jupyter notebook
 - Apply pre-trained models to real-world NLP tasks
 - Work with professional NLP tools like Hugging Face
 - Ensure reproducibility using Git, Anaconda, and Jupyter Notebook
-## Project Structure
-Voici l'organisation des fichiers du projet :
-project-root/
-├── .ipynb_checkpoints/
-│   ├── BERT-checkpoint.ipynb
-│   ├── BERT_ELMo_GPT-checkpoint.ipynb
-│   └── README-checkpoint.md
-├── sentiment_bert/
-│   ├── config.json
-│   ├── special_tokens_map.json
-│   ├── tokenizer_config.json
-│   └── vocab.txt
-├── .gitignore
-├── .gitattributes
-├── BERT_ELMo_GPT.ipynb        ← Notebook principal du projet
-├── README.md                  ← Documentation du projet
-├── metrics.json               ← Fichier des métriques du modèle
 
 ## Implementation Details
 
