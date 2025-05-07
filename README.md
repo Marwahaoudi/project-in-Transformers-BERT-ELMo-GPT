@@ -131,10 +131,12 @@ The following libraries were used throughout the project for training, evaluatio
 
 
 #### Libraries Used
-- **transformers** — for GPT-2 model and tokenizer
-- **wikipedia** — to fetch summaries from Wikipedia
-- **re** — for regex-based term extraction
-- **Python Standard Libraries** — for basic functionality
+The following libraries were used specifically for the GPT-2 tasks (question answering and text generation):
+
+- **transformers** — to load and use the pre-trained French GPT-2 model and tokenizer.
+- **wikipedia** — to retrieve short summaries from French Wikipedia based on user questions.
+- **re** — for regular expression-based keyword extraction from user input (e.g., “C’est quoi X ?”).
+- **Python Standard Libraries** — for implementing the command-line interface and handling basic program logic.
 
 ----
 
