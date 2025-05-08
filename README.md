@@ -1,4 +1,4 @@
-# Project: Transformers — BERT, ELMo, GPT.
+# Project: Transformers — BERT, ELMo, GPT, etc.
 
 ## 🎬 Project Presentation
 
