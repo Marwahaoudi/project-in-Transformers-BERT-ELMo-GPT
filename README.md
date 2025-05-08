@@ -1,6 +1,11 @@
 # Project: Transformers — BERT, ELMo, GPT, etc.
 
-[Video](https://drive.google.com/file/d/1d-zuojdT7XRtypyiHstQ5ywt59qY8L6h/view)
+## 🎬 Project Presentation
+
+Click the image below to watch the project demo video:
+
+[![Watch the video](https://drive.google.com/file/d/1d-zuojdT7XRtypyiHstQ5ywt59qY8L6h/view)
+
 
 ## Overview
 
