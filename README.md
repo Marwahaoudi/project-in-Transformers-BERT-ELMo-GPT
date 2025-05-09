@@ -55,6 +55,10 @@ conda activate d2l_env
 ### 4. Install Required Libraries
  ```bash
 !pip install transformers scikit-learn matplotlib
+!pip install wikipedia
+!pip install tensorflow
+!pip install tensorflow-hub
+!pip install numpy
 ```
 ### 5. Launch Jupyter Notebook
  ```bash
